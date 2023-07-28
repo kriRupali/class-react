@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section.Spotify-body {
+  padding: 10vw 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.881);
+}
+
+.searchwith article {
+  background-color: black;
+  padding: 30px 0;
+}
+
+.searchwith h2 {
+  text-align: center;
+  font-size: 40px;
+}
+div.xyz {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  width: 40vw;
+  border-bottom: 1px solid rgba(81, 80, 80, 0.432);
+}
+
+div.xyz > div {
+  padding: 10px 15px;
+  width: 50%;
+  margin: auto;
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  div.xyz {
+    width: 80vw;
+  }
+  div.xyz > div {
+    width: 80%;
+  }
+  section.spotify-login form.spoti {
+    width: 80vw;
+  }
+  section.spotify-login form.spoti input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.xyz {
+    width: 65vw;
+  }
+  div.xyz > div {
+    width: 100%;
+  }
+  section.spotify-login form.spoti {
+    width: 65vw;
+  }
+  section.spotify-login form.spoti input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.xyz {
+    width: 60vw;
+  }
+  div.xyz > div {
+    width: 100%;
+  }
+  .searchwith h2 {
+    font-size: 25px;
+  }
+  section.spotify-login form.spoti {
+    width: 60vw;
+  }
+  section.spotify-login form.spoti input {
+    width: 100%;
+  }
+}
+
+section.spotify-login form.spoti {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px 15px 40px 15px;
+  width: 40vw;
+  background-color: black;
+}
+section.spotify-login form.spoti input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  background: #000;
+  color: white;
+  /* outline: none; */
+  border: 1px solid white;
+}
+section.spotify-login form.spoti > div {
+  margin: auto;
+  width: 50%;
+}
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 50%;
+  background-color: rgb(18, 191, 18);
+  border-radius: 30px;
+  font-weight: bold;
+  margin: auto;
+}
+button:hover {
+  transform: scale(1.1);
+}

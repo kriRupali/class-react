@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.small-cards1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(44, 43, 43, 0);
+    background-image: url("./Assets/Untitled.jp.jpg");
+    height: 30px;
+    width: 40px;
+    color: white;
+}
